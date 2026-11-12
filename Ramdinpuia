@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TURU OS</title>
+<style>
+body {
+  background: #000;
+  color: #00ff41;
+  font-family: monospace;
+  text-align: center;
+  padding: 70px 10px;
+}
+h1 {
+  text-shadow: 0 0 20px #00ff41;
+}
+button {
+  padding: 14px 25px;
+  background: black;
+  color: #00ff41;
+  border: 2px solid #00ff41;
+  border-radius: 10px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h1>TURU OS v1.0</h1>
+<p>WELCOME TO MY DIGITAL WORLD</p>
+
+<button onclick="hello()">START SYSTEM</button>
+
+<script>
+function hello() {
+  alert("WELCOME TURU BOSS!");
+}
+</script>
+
+</body>
+</html>
